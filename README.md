@@ -15,7 +15,7 @@ Next you create the ```main.go``` file, and only first line set your package nam
 
 #### Step 3:
 Set an entry point for the program, where the program will start execution from, this declaration is important for the go program to know where to begin execution. so then we create ```main()```, the main function is our entry point. we create it using the ```func``` keyword.
-#### NOTE: You can have only one entry point, that is one main function.
+### NOTE - You can have only one entry point, that is one main function.
 
 #### Step 4:
 Now we need a package to output our text, for this purpose we are going to import the ```fmt``` package. 
@@ -35,6 +35,7 @@ func main() {
 ```
 
 #### Step 5:
-Running the program, you use the command. ```go run main.go```
+Running the program, you use the command. ```go run main.go``` And we have the output: ```Hello World!```
 
-And we have the output: ```Hello World!```
+## Further Programs:
+Will be in the learn package
