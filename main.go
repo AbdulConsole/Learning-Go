@@ -9,7 +9,7 @@ import (
 func main() {
 	// fmt.Println("Hello World!")
 
-	// Example fetching from first package
+	// Lesson One from first package
 	getOne := learn.One()
 	fmt.Print(getOne)
 
