@@ -1,6 +1,6 @@
 package learn
 
-func Two() int {
-	a := 2
+func One() int {
+	a := 1
 	return a
 }

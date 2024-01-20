@@ -7,13 +7,13 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello World!")
+	// fmt.Println("Hello World!")
 
 	// Example fetching from first package
-	getTwo := learn.Two()
-	fmt.Println(getTwo)
+	getOne := learn.One()
+	fmt.Print(getOne)
 
 	// Example fetching from second package
-	getThree := learn.Three()
-	fmt.Println(getThree)
+	getTwo := learn.Two()
+	fmt.Printf("\n\n\nUp Next: %s ...", getTwo)
 }

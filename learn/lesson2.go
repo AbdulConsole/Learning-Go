@@ -1,6 +1,6 @@
 package learn
 
-func Three() int {
-	num := 3
-	return num
+func Two() string {
+	letter := "Lesson 2"
+	return letter
 }
