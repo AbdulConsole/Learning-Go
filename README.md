@@ -38,4 +38,8 @@ func main() {
 Running the program, you use the command. ```go run main.go``` And we have the output: ```Hello World!```
 
 ## Further Programs:
-Will be in the learn package
+Will be in the [learn](./learn) package
+
+[LESSON 1](./learn/lesson1.go)
+
+[LESSON 2](./learn/lesson2.go)
