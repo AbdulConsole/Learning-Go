@@ -36,3 +36,5 @@ func main() {
 
 #### Step 5:
 Running the program, you use the command. ```go run main.go```
+
+And we have the output: ```Hello World!```
