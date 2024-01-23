@@ -1,19 +1,21 @@
 package main
 
 import (
-	"fmt"
+        "fmt"
 
-	"github.com/AbdulConsole/Learning-Go/learn"
+        "github.com/AbdulConsole/Learning-Go/learn"
 )
 
 func main() {
-	// fmt.Println("Hello World!")
+        // fmt.Println("Hello World!")
 
-	// Lesson One from first package
-	getOne := learn.One()
-	fmt.Print(getOne)
+        // Lesson One from first package
+        getOne := learn.One()
+        fmt.Println(getOne)
+        fmt.Println("------------_-------------")
 
-	// Example fetching from second package
-	getTwo := learn.Two()
-	fmt.Printf("\n\n\nUp Next: %s ...", getTwo)
+        // Example fetching from second package
+        getTwo := learn.Two()
+        fmt.Printf("\n%s\n", getTwo)
+        fmt.Println("------------_-------------")
 }

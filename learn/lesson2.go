@@ -1,6 +1,8 @@
 package learn
 
+import "rsc.io/quote"
+
 func Two() string {
-	letter := "Lesson 2"
-	return letter
+        quote := quote.Go()
+        return quote
 }
