@@ -15,6 +15,7 @@ func main() {
         fmt.Println("------------_-------------")
 
         // Example fetching from second package
+        //Login in on termux
         getTwo := learn.Two()
         fmt.Printf("\n%s\n", getTwo)
         fmt.Println("------------_-------------")
